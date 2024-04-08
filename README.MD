@@ -12,6 +12,7 @@ Welcome to this Student Learning Aid Website i.e. **EduSphere** repository! This
 
 ### Dictionary
 - Look up definitions, synonyms, and antonyms of words.
+- Provides pronunciation guides and example sentences for better understanding.
 
 ### Books
 - Access a collection of educational resources, textbooks, and reference materials.
