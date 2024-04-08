@@ -1,8 +1,6 @@
 #EduSphere
 ## Student Learning Aid Website
 
----
-
 ## Welcome
 
 Welcome to this Student Learning Aid Website i.e. **EduSphere** repository! This project aims to develop a comprehensive website to assist students in their learning journey by providing various tools and resources. The website features navigation links to essential functionalities such as a calculator, dictionary, books, translator, and note-taking capabilities.
