@@ -1,4 +1,4 @@
-#EduSphere
+# EduSphere
 ## Student Learning Aid Website
 
 ## Welcome
