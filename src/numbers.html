@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon.ico"/>
+    <link href="styles/numbers.css" rel="stylesheet">
+    <link href= "styles/nav.css" rel=stylesheet>
+    <link href= "styles/variables.css" rel=stylesheet>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@459&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" 
+    href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--TODO: Change to the actual name-->
+    <title>EduSurf</title>
+
+</head>
+<body>
+    <div class="navbar">
+        
+        <div class="navbar-logo" href="#"></div>
+        <div class="navbar-itema-home">
+            <a href="./index.html">
+
+                <img class="navbar-item-home-icon" src="assets/icons/home.svg"></img>
+            </a>
+        </div>
+        <div class="spacer"></div>
+        <div class="navbar-controller">
+                <img class="navbar-controller-icon right-icon" src="assets/icons/arrow-right.svg"></img>
+        
+        </div>
+        
+        <div class="spacer"></div>
+        <div class="navbar-item closed">
+            <a href="dictionary.html" style="text-decoration: none;">
+                <img class="navbar-item-icon" src="assets/icons/dictonary.svg"></img>
+                <h2 class="navbar-item-text hidden">Dictonary</h2>
+            </a>
+        </div>
+        <div class="navbar-item closed">
+            <a href="calculator.html" style="text-decoration: none;">
+                <img class="navbar-item-icon" src="assets/icons/calculator.svg"></img>
+                <h2 class="navbar-item-text hidden">Calculator</h2>
+            </a>
+        </div>
+        <div class="navbar-item closed">
+            <img class="navbar-item-icon" src="assets/icons/search-books.svg"></img>
+            <h2 class="navbar-item-text hidden">Books</h2>
+        </div>
+        <div class="navbar-item closed">
+            <img class="navbar-item-icon" src="assets/icons/translate.svg"></img>
+            <h2 class="navbar-item-text hidden">Translate</h2>
+        </div>
+        <div class="navbar-item closed">
+            <img class="navbar-item-icon" src="assets/icons/notes.svg"></img>
+            <h2 class="navbar-item-text hidden">Notes</h2>
+        </div>
+        <div class="navbar-item closed">
+            <a href="#" style="text-decoration: none;">
+                <img class="navbar-item-icon" src="assets/icons/numbers.svg"></img>
+                <h2 class="navbar-item-text hidden">Calculator</h2>
+            </a>
+        </div>
+        <div class="spacer"></div>
+    </div>
+    <div class="main">
+        <section class="head">
+            <div class="about-container">    
+                <div class="title">
+                    Numbers
+                </div>
+                
+            </div>
+            <img class="title-image" src="assets/images/Idea.svg">
+            </img>
+        </section>
+        <section class="middle">
+            <div class="buttons">
+                <div class="search-btn math">
+                    Math
+                </div>
+                <div class="search-btn trivia">
+                    Trivia
+                </div>
+                <div class="search-btn date">
+                    Date
+                </div>
+            </div>
+            
+            
+        </section>
+        <div class="space-box"></div>
+        <div class="space-box"></div>
+        
+        <div class="space-box"></div>
+
+        
+    </div>
+
+    <script src="js/navbar.js" type="module"></script>
+    <script src="./BackEnd/getNumberFact.js" type="module"></script>
+    <script src="js/numbers.js" type ="module"></script>
+
+</body>
+</html>

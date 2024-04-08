@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon.ico"/>
+    <link href= "styles/index.css" rel=stylesheet>
+    <link href= "styles/nav.css" rel=stylesheet>
+    <link href= "styles/variables.css" rel=stylesheet>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@459&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <!--TODO: Change to the actual name-->
+    <title>EduSphere</title>
+
+</head>
+<body>
+    <div class="navbar">
+        
+        <div class="navbar-logo"></div>
+        <div class="spacer"></div>
+        <div class="navbar-controller">
+                <img class="navbar-controller-icon right-icon" src="assets/icons/arrow-right.svg"></img>
+        
+        </div>
+        <div class="spacer"></div>
+        <div class="navbar-item closed" >
+            <a href="dictionary.html" style="text-decoration: none;">
+                <img class="navbar-item-icon" src="assets/icons/dictonary.svg"></img>
+                <h2 class="navbar-item-text hidden">Dictonary</h2>
+            </a>
+        </div>
+        <div class="navbar-item closed">
+            <a href="calculator.html" style="text-decoration: none;">
+                <img class="navbar-item-icon" src="assets/icons/calculator.svg"></img>
+                <h2 class="navbar-item-text hidden">Calculator</h2>
+            </a>
+        </div>
+        <div class="navbar-item closed">
+            <img class="navbar-item-icon" src="assets/icons/search-books.svg"></img>
+            <h2 class="navbar-item-text hidden">Books</h2>
+        </div>
+        <div class="navbar-item closed">
+            <img class="navbar-item-icon" src="assets/icons/translate.svg"></img>
+            <h2 class="navbar-item-text hidden">Translate</h2>
+        </div>
+        <div class="navbar-item closed">
+            <img class="navbar-item-icon" src="assets/icons/notes.svg"></img>
+            <h2 class="navbar-item-text hidden">Notes</h2>
+        </div>
+        <div class="navbar-item closed">
+            <a href="numbers.html" style="text-decoration: none;">
+                <img class="navbar-item-icon" src="assets/icons/numbers.svg"></img>
+                <h2 class="navbar-item-text hidden">Calculator</h2>
+            </a>
+        </div>
+        <div class="spacer"></div>
+    </div>
+    <div class="main">
+        <section class="head">
+            <div class="about-container">    
+                <div class="title">
+                    EduSphere
+                </div>
+                <div class="dialogue" id="dialogue-top">
+                    <div class="box">
+                        <div id="corner-tl" class="box-corner"></div>
+                        <div id="corner-tr" class="box-corner"></div>
+                        <div id="corner-bl" class="box-corner"></div>
+                        <div id="corner-br" class="box-corner"></div>
+                        <p>EduSphere is a collection of educational tools that can be used to help students to learn more about the world around them.</p>
+                    </div>
+                </div>
+            </div>
+            <img class="title-image" src="assets/images/School.svg">
+            </img>
+            
+        </section>
+
+        <section class="middle">
+            <div class="dialogue" id="dialogue-bottom">
+                <div class="box">
+                    <div id="corner-tl" class="box-corner"></div>
+                    <div id="corner-tr" class="box-corner"></div>
+                    <div id="corner-bl" class="box-corner"></div>
+                    <div id="corner-br" class="box-corner"></div>
+                    <p>EduSphere is a collection of educational tools that can be used to help students to learn more about the world around them.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <div class="space-box"></div>
+        
+    </div>
+
+
+    
+    <script src="js/navbar.js"                  defer type="module"></script>
+</body>
+</html>
